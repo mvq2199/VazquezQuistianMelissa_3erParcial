@@ -4,7 +4,7 @@ import platform
 import sys
 import subprocess
 import json
-file_name = "data.jason"
+file_name = "data.json"
 sistemaop = sys.platform
 sistema = platform.system()
 version = platform.win32_ver()
@@ -24,5 +24,3 @@ file = open(file_name, "w")
 json.dump(diccionario, file, indent=4)
 file.close()
 
-
-#Los archivos Json se 
